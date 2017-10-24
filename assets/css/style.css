@@ -274,7 +274,28 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
 
+  #main-container {
+    padding-right:200px;
+    width: 780px;
+  }
+  .main-section {
+    
+    width: 100%;
+    float:center;
+    
+  }
+
+  .sidebar {
+  clear:both;
+  width: 100%;
+  max-width: 780px;
+  padding: 30px;
+  margin-left: 100px;
+
+  
+  
 }
+
 
 @media screen and (max-width: 640px) {
 
