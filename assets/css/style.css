@@ -286,16 +286,35 @@ input[type=submit] {
   }
 
   .sidebar {
-  clear:both;
+  float: center;
   width: 100%;
   max-width: 780px;
   padding: 30px;
   margin-left: 100px;
-
   
   
 }
 
+h3,
+.sidebar h2 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eee;
+}
+
+.social {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+.social:last-child {
+  margin-right: 0;
+
+    
+  }
 
 @media screen and (max-width: 640px) {
 
