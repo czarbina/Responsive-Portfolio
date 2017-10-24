@@ -305,24 +305,31 @@ input[type=submit] {
     width:640px;
   }
 
+  }
+
+  #masthead {
+  position: none;
+  z-index: auto;
+  
+}
+
+
   nav {
-    position: auto;
+
+    margin-top: 100px;
+    
     width: 100%;
     clear:both;
-    margin:auto;
+    
   }
 
   #logo {
     
     width:100%;
+    margin: 0;
+    padding: 0;
 
   }
-
-  #masthead {
-  position: fixed;
-  z-index: auto;
-  
-}
 
   .main-section {
     width: 600px;
