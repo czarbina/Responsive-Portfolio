@@ -282,8 +282,11 @@ input[type=submit] {
     
     width: 100%;
     float:center;
-    
+    font-size: 15px;
+      
+
   }
+
 
   .sidebar {
   float: center;
@@ -291,31 +294,45 @@ input[type=submit] {
   max-width: 780px;
   padding: 30px;
   margin-left: 100px;
-  
-  
-}
-
-h3,
-.sidebar h2 {
-  padding-bottom: 20px;
-  margin-bottom: 15px;
-  line-height: 22px;
-  border-bottom: 2px solid #eee;
-}
-
-.social {
-  width: 62px;
-  height: 62px;
-  margin-top: 8px;
-  margin-right: 5px;
-}
-
-.social:last-child {
-  margin-right: 0;
 
     
   }
 
 @media screen and (max-width: 640px) {
+  
+
+  #main-container {
+    width:640px;
+  }
+
+  nav {
+    position: auto;
+    width: 100%;
+    clear:both;
+    margin:auto;
+  }
+
+  #logo {
+    
+    width:100%;
+
+  }
+
+  #masthead {
+  position: fixed;
+  z-index: auto;
+  
+}
+
+  .main-section {
+    width: 600px;
+    margin-left:20px;
+  }
+
+  .sidebar {
+    width: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
 }
